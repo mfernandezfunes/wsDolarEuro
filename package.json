@@ -1,0 +1,19 @@
+{
+  "name": "microserviciodolar",
+  "version": "1.0.0",
+  "description": "Obtencion de valot de dolar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.0",
+    "html-extractor": "^0.2.2",
+    "htmlparser2": "^3.10.1",
+    "request": "^2.88.0",
+    "table-scraper": "^0.1.0"
+  }
+}
