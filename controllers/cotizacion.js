@@ -31,7 +31,7 @@ let controller = {
             message: 'Debe ingresar la moneda a buscar'
         })
         return res.status(200).send({
-            message: "Aca tenes el valor"
+            message: "Aca tenes el valor del DOL en JSON"
         })
     },
     getCotizacionEuro: function (req, res) {
@@ -45,7 +45,7 @@ let controller = {
             message: 'Debe ingresar la moneda a buscar'
         })
         return res.status(200).send({
-            message: "Aca tenes el valor"
+            message: "Aca tenes el valor del EUR en JSON"
         })
     }
 }
