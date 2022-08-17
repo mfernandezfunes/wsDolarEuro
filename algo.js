@@ -3,7 +3,7 @@ let scraper = require('table-scraper');
    EUR PSS */
 
 let urlCotizacion = "http://www.bna.com.ar/Cotizador/HistoricoPrincipales"
-let getParams = "?id=billetes&filtroEuro=1&filtroDolar=1&fecha=20/05/2019"
+let getParams = "?id=billetes&filtroEuro=1&filtroDolar=1&fecha=17/08/2022"
 
 scraper
     .get(urlCotizacion + getParams)
